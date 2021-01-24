@@ -19,11 +19,8 @@ jobs:
         with:
           python-version: 3.5  # Version range or exact version of a Python version to use, using SemVer's version range syntax
       - name: Install Python dependecies
-        run: |
-          make install
+        run: make install
       - name: lint with pylint 
-        run: |
-          make lint
+        run: make lint
       - name: test with pytest
-        run: |
-          make test        
+        run: make test        
