@@ -23,4 +23,4 @@ jobs:
       - name: lint with pylint 
         run: make lint
       - name: test with pytest
-        run: make test        
+        run: make test  
