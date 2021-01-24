@@ -14,10 +14,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Set up python 3.5
+      - name: Set up python 3.8
         uses: actions/setup-python@v1
         with:
-          python-version: 3.5  # Version range or exact version of a Python version to use, using SemVer's version range syntax
+          python-version: 3.8  # Version range or exact version of a Python version to use, using SemVer's version range syntax
       - name: Install Python dependecies
         run: make install
       - name: lint with pylint 
